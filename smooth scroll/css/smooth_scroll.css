@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+div {
+  margin-top: 20%;
+}
