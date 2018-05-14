@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+
+.accordion, h1 {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+h2 {
+  margin: 20px auto;
+  display: block;
+  background-color: red;
+  color: white;
+  width: 30%;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.add {
+  display: block;
+}
