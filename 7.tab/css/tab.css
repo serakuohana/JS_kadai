@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+h1 {
+  padding-left: 50px;
+  color: teal;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+}
+ul li {
+  color: white;
+  font-weight: bold;
+  font-size: 125%;
+}
+.tab {
+  overflow:hidden;
+}
+.tab li {
+  background:#ccc;
+  padding:10px 112px;
+  float:left;
+  margin-right:1px;
+}
+.tab li.select {
+  background:teal;
+}
+.content li {
+  background:teal;
+  width: 918px;
+  padding:20px;
+}
+.hide {
+  display:none;
+}
