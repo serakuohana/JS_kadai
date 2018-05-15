@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+#slideShow {
+  text-align: center;
+  padding-right: 14%;
+}
+
+#slideShow img{
+		/* 全てを非表示にして、画像を重ねる */
+		opacity: 0;
+		position: absolute;
+	}
+	#slideShow .img1{
+		/* 1枚目の画像だけ表示 */
+		opacity: 1;
+	}
