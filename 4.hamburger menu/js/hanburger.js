@@ -1,10 +1,10 @@
-$(function() {
-  $('.toggle').click(function() {
-    $(this).toggleClass("active");
-        if($(this).hasClass('active')) {
-            $('.global_nav').addClass('active');
-        } else {
-            $('.global_nav').removeClass('active');
-        }
-  });
+$('.open').each(function(){
+  $(this).css("height",$(this).height()+"px");
+});
+
+$('.open').hide();
+
+$('.btn').click(function () {
+  $('.open').slideToggle('slow');
+  $(this).toggleClass('on');
 });
