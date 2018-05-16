@@ -8,16 +8,23 @@ h1 {
   color: red;
 }
 h2 {
-  margin: 20px auto;
+  margin: 0 auto;
+  border: 1px solid black;
   display: block;
   background-color: red;
   color: white;
-  width: 30%;
+  width: 20%;
   text-align: center;
 }
 
 .hide {
   display: none;
+}
+
+p {
+  display: block;
+  width: 20%;
+  margin: 20px auto;
 }
 
 .add {

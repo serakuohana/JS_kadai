@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 h1 {
-  padding-left: 50px;
+  text-align: center;
   color: teal;
 }
 
@@ -15,22 +15,22 @@ ul li {
   font-size: 125%;
 }
 .tab {
-  overflow:hidden;
+  overflow: hidden;
 }
 .tab li {
   background:#ccc;
-  padding:10px 112px;
-  float:left;
-  margin-right:1px;
+  padding: 10px 112px;
+  float: left;
+  margin-right: 1px;
 }
 .tab li.select {
-  background:teal;
+  background: teal;
 }
 .content li {
-  background:teal;
+  background: teal;
   width: 918px;
-  padding:20px;
+  padding: 20px;
 }
 .hide {
-  display:none;
+  display: none;
 }

@@ -6,10 +6,23 @@ h1 {
 }
 
 .wrap {
-  width: 10%;
-  border: 1px solid violet;
+  width: 20%;
+  border: 2px solid violet;
+  border-radius: 8px;
   position: relative;
   margin: 30px auto;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
+ul {
+  padding-left: 10px;
+}
+ul li {
+  list-style-type: none;
+  font-size: 120%;
 }
 
 .btn{
@@ -17,7 +30,7 @@ h1 {
     height: 35px;
     position: absolute;
     right :2%;
-    top: 20%;
+    top: 20px;
 }
 .btn:before,
 .btn:after,
