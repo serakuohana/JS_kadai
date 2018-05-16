@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+h1 {
+  text-align: center;
+  color: olive;
+}
+
+strong {
+  font-size: 120%;
+  padding: 0 3px;
+  border: 1px solid red;
+}

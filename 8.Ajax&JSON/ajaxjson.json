@@ -1,0 +1,16 @@
+[{
+    "division": "営業部",
+    "person": [
+        { "name": "山田", "age": 21, "sex": "男" },
+        { "name": "佐藤", "age": 56, "sex": "男" },
+        { "name": "鈴木", "age": 33, "sex": "女" }
+    ]
+},
+{
+    "division": "製造部",
+    "person": [
+        { "name": "阿部", "age": 44, "sex": "女" },
+        { "name": "藤沢", "age": 19, "sex": "男" },
+        { "name": "渡辺", "age": 26, "sex": "男" }
+    ]
+}]
