@@ -23,7 +23,7 @@ setElm.each(function() {
 		var pagination = self.find('.pagiNation');
 
 		$.each(new Array(wrapSplit), function(i){
-			pagination.append('<a href="javascript:void(0);" class="pn' + (i+1) + '">slide' + (i+1) + '</a>');
+			pagination.append('<a href="javascript:void(0);" class="pn' + (i+1) + '"></a>');
 		});
 
 		var pnPoint = pagination.find('a'),

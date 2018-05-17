@@ -5,8 +5,8 @@ h1 {
   color: blue;
 }
 p {
-  width: 560px;
-  height: 400px;
+  width: 640px;
+  height: 426px;
   background-color: blue;
   color: white;
   font-weight: bold;
@@ -22,16 +22,16 @@ ul {
 
 .slidePanel {
   margin: 0 auto;
-  width: 600px;
-  height: 400px;
+  width: 680px;
+  height: 426px;
   text-align: center;
   position: relative;
 }
 
 .slideWrap {
   margin: 20px auto 100px auto;
-  width: 600px;
-  height: 400px;
+  width: 680px;
+  height: 510px;
   overflow: hidden;
   position: absolute;
 }
@@ -43,7 +43,7 @@ ul {
 }
 .slidePanel ul li {
   padding: 0 20px;
-  width: 600px;
+  width: 680px;
   text-align: center;
   float: left;
   display: inline;
@@ -84,21 +84,53 @@ ul {
   z-index: 110;
 }
 .pagiNation a {
-  margin: 20px 2px;
-  width: 109px;
+  margin: 30px 4px;
+  width: 122px;
   height: 80px;
   display: inline-block;
   overflow: hidden;
-  background: blue;
-  color: white;
   transition: all 0.2s ease-in-out;
 }
 .pagiNation a:hover {
   opacity: 0.6;
 }
+.pagiNation a.pn1, .pagiNation a.pn2, .pagiNation a.pn3, .pagiNation a.pn4, .pagiNation a.pn5 {
+  opacity: 0.3;
+}
 .pagiNation a.pnActive {
-  background: navy;
+  opacity: 1;
 }
 .pagiNation a.pnActive:hover {
   opacity: 1;
+}
+
+.pagiNation a.pn1 {
+  background-image: url(../images/slide01.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+.pagiNation a.pn2 {
+  background-image: url(../images/slide02.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+.pagiNation a.pn3 {
+  background-image: url(../images/slide03.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+.pagiNation a.pn4 {
+  background-image: url(../images/slide04.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+.pagiNation a.pn5 {
+  background-image: url(../images/slide05.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
 }
