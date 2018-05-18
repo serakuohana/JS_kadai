@@ -8,6 +8,7 @@ h1 {
 ul {
   list-style-type: none;
   margin: auto;
+  padding-left: 0;
 }
 ul li {
   color: white;
@@ -16,20 +17,22 @@ ul li {
 }
 .tab {
   overflow: hidden;
+  width: 90%;
 }
 .tab li {
   background:#ccc;
-  padding: 10px 112px;
+  width: 25%;
   float: left;
-  margin-right: 1px;
 }
 .tab li.select {
   background: teal;
 }
 .content li {
   background: teal;
-  width: 918px;
-  padding: 20px;
+  width: 90%;
+  height: 700px;
+  margin: auto;
+  padding-top: 20px;
 }
 .hide {
   display: none;

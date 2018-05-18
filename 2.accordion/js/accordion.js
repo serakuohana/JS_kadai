@@ -1,11 +1,8 @@
 
-let menu = document.getElementsByTagName('h2');
-
-function show(){
-  let hideContent = this.nextElementSibling;
-  hideContent.classList.toggle('hide');
-};
-
-for(let i = 0; i < menu.length; i++){
-  menu[i].addEventListener('click', show)
-}
+$(function(){
+  $('.toggle dt').click(function(){
+    if($(this).next().not(':animated').length >= 1){
+      $(this).next().slideToggle();
+    }
+  });
+});

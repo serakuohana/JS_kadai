@@ -8,7 +8,7 @@ var flg=2;	//「2枚目に切り替え」からスタートするため、flg �
 					//1枚目に切り替え
 					$(".img3").animate({opacity:0});
 
-					$(".img1").css({"margin-left":"250px"});
+					$(".img1").css({"margin-left":"200px"});
 					$(".img1").animate({
 						opacity:1,
 						"margin-left":"0px"
@@ -19,7 +19,7 @@ var flg=2;	//「2枚目に切り替え」からスタートするため、flg �
 					//2枚目に切り替え
 					$(".img1").animate({opacity:0});
 
-					$(".img2").css({"margin-left":"250px"});
+					$(".img2").css({"margin-left":"200px"});
 					$(".img2").animate({
 						opacity:1,
 						"margin-left":"0px"
@@ -30,7 +30,7 @@ var flg=2;	//「2枚目に切り替え」からスタートするため、flg �
 					//3枚目に切り替え
 					$(".img2").animate({opacity:0});
 
-					$(".img3").css({"margin-left":"250px"});
+					$(".img3").css({"margin-left":"200px"});
 					$(".img3").animate({
 						opacity:1,
 						"margin-left":"0px"

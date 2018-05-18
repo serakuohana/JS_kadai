@@ -7,16 +7,19 @@
 h1 {
   color: red;
 }
-h2 {
+dl {
   margin: 0 auto;
   border: 1px solid black;
   display: block;
-  background-color: red;
-  color: white;
   width: 20%;
-  text-align: center;
 }
 
+dl dt {
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
 .hide {
   display: none;
 }

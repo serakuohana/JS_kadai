@@ -18,10 +18,9 @@ h1 {
 }
 .Wrap .wrapInner {
   margin: 19px auto 0;
-  width: 960px;
+  width: 800px;
   height: 400px;
   background: #FFF;
-  border-radius:8px;
 }
 .pc-nav ul li:hover:after{
   display:block;
@@ -34,7 +33,7 @@ h1 {
   z-index: 1000;
 }
 
-ul {
+ul.magamenu {
   display: block;
   width: 804px;
   list-style-type: none;
@@ -42,7 +41,7 @@ ul {
   margin: 30px auto;
 }
 
-ul li {
+ul.magamenu li {
   display: block;
   width: 200px;
   float: left;
@@ -51,10 +50,27 @@ ul li {
   border-left: 1px solid white;
 }
 
-ul li a {
+ul.magamenu li a {
   text-decoration: none;
   color: white;
   font-size: 125%;
   font-weight: bold;
   padding: 20px auto;
+}
+
+dl {
+  padding-left: 10px;
+  margin-left: 150px;
+  text-align: left;
+  float: left;
+}
+dl dt {
+  font-size: 130%;
+}
+dl dd {
+}
+dl dd a {
+  color: black !important;
+  font-size: 120% !important;
+  font-weight: 400 !important;
 }
